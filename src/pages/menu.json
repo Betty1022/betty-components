@@ -1,0 +1,12 @@
+[
+  {
+    "key": "menu1",
+    "title": "Menu1",
+    "icon": "PieChartOutlined"
+  },
+  {
+    "key": "menu2",
+    "title": "Menu2",
+    "icon": "DesktopOutlined"
+  }
+]
