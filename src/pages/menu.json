@@ -1,14 +1,14 @@
 [
   {
-    "key": "menu1",
-    "title": "Menu1",
+    "key": "expand",
+    "title": "文本展开收起",
     "icon": "PieChartOutlined",
-    "path": "/menu1"
+    "path": "/expand"
   },
   {
-    "key": "menu2",
-    "title": "Menu2",
+    "key": "stepper",
+    "title": "步进器",
     "icon": "DesktopOutlined",
-    "path": "/menu2"
+    "path": "/stepper"
   }
 ]

@@ -1,0 +1,50 @@
+.portalStepper{
+  display: inline-block;
+  .stepper-input{
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+    line-height: 0;
+    text-align: center;
+    border-radius: 0px;
+    vertical-align: middle;
+  }
+  .stepper-before{
+    border-right: 0;
+    border-radius: 2px 0px 0px 2px;
+  }
+
+  .stepper-after{
+    border-left: 0;
+    border-radius: 0px 2px 2px 0px;
+  }
+
+  .dpl20_minus_s, .dpl20_plus_s {
+    font-size: 10px;
+    color: '#000';
+  }
+  .ant-btn{
+    height: 34px;
+    width: 34px;
+    padding: 0px;
+    vertical-align: middle;
+  }
+  .ant-btn[disabled] {
+    background: '#fff';
+    border-color: '#ccc';
+    .dpl20_minus_s, .dpl20_plus_s {
+      color: '#000';
+    }
+  }
+
+  //去除input的type为number时的上下标样式
+  input[type=number] {
+    -moz-appearance:textfield;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
