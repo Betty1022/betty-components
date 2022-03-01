@@ -2,11 +2,13 @@
   {
     "key": "menu1",
     "title": "Menu1",
-    "icon": "PieChartOutlined"
+    "icon": "PieChartOutlined",
+    "path": "/menu1"
   },
   {
     "key": "menu2",
     "title": "Menu2",
-    "icon": "DesktopOutlined"
+    "icon": "DesktopOutlined",
+    "path": "/menu2"
   }
 ]
