@@ -1,0 +1,14 @@
+[
+  {
+    "key": "expand",
+    "title": "文本展开收起",
+    "icon": "PieChartOutlined",
+    "path": "/expand"
+  },
+  {
+    "key": "stepper",
+    "title": "步进器",
+    "icon": "DesktopOutlined",
+    "path": "/stepper"
+  }
+]
