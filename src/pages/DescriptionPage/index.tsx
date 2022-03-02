@@ -22,12 +22,12 @@ const DescriptionPage: FC<IProps> = () => {
         <div className='title'>文本展开收起</div>
         <Alert type='info' message={RenderMessage()} />
       </div>
-      <PortalDescription 
+      <PortalDescription
         text={text}
         lineHeight='22px'
       />
     </div>
-  )
-}
+  );
+};
 
 export default DescriptionPage;

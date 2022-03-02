@@ -14,7 +14,7 @@ type IProps = {};
 const Pages: FC<IProps> = () => {
   const renderRoute = (route: any, index: any) => {
     return <Route {...{[['key'][0]]: index}} {...route} />;
-  }
+  };
 
   return (
     <Layout style={{minHeight: '100vh'}}>
@@ -24,13 +24,13 @@ const Pages: FC<IProps> = () => {
       </Sider>
       <Layout className='site-layout'>
         <Content>
-            <Switch>
-              {config?.map(renderRoute)}
-            </Switch>
+          <Switch>
+            {config?.map(renderRoute)}
+          </Switch>
         </Content>
       </Layout>
     </Layout>
-  )
-}
+  );
+};
 
 export default Pages;

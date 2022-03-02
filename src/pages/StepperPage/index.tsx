@@ -14,7 +14,7 @@ const StepperPage: FC<IProps> = () => {
       <div>number传入的数值：默认数值</div>
       <div>onChange方法：</div>
     </div>
-  )
+  );
   return (
     <div className='container'>
       <div className='introduction'>
@@ -22,15 +22,15 @@ const StepperPage: FC<IProps> = () => {
         <Alert type='info' message={RenderMessage()} />
       </div>
       <Stepper
-       number={12}
-       min={8}
-       max={20}
-       onChange={(value): void => {
-         console.log(value, 'value');
-       }}
+        number={12}
+        min={8}
+        max={20}
+        onChange={(value): void => {
+          console.log(value, 'value');
+        }}
       />
     </div>
-  )
-}
+  );
+};
 
 export default StepperPage;

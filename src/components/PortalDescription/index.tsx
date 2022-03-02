@@ -17,10 +17,10 @@ const PortalDescription: FC<IProps> = ({lineHeight, text}) => {
 
     if (textRefTarget.className.indexOf('text-ellipsis') >= 0) {
       textRefTarget.classList.remove('text-ellipsis');
-      aRefTarget.innerHTML = `&nbsp&nbsp收起`;
+      aRefTarget.innerHTML = '&nbsp&nbsp收起';
     } else {
       textRefTarget.classList.add('text-ellipsis');
-      aRefTarget.innerHTML = `展开`;
+      aRefTarget.innerHTML = '展开';
     }
   };
 
@@ -38,7 +38,7 @@ const PortalDescription: FC<IProps> = ({lineHeight, text}) => {
       textRefTarget.classList.add('text-ellipsis');
     } else if (height > limitHeight) {
       aRefTarget.className = 'btn-text-show';
-      aRefTarget.innerHTML = `&nbsp&nbsp收起`;
+      aRefTarget.innerHTML = '&nbsp&nbsp收起';
     } else {
       aRefTarget.className = 'btn-text-hidden';
       textRefTarget.classList.remove('text-ellipsis');
@@ -59,6 +59,6 @@ const PortalDescription: FC<IProps> = ({lineHeight, text}) => {
       </a>
     </span>
   );
-}
+};
 
 export default PortalDescription;

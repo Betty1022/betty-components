@@ -15,14 +15,14 @@ const SideMenu: FC<IProps> = ({menus}) => {
             {item?.title}
           </Link>
         </Menu.Item>
-      ))
+      ));
     }
-  }
+  };
   return (
     <Menu theme='dark' defaultSelectedKeys={[menus?.[0]?.key]}>
       {RenderMenu(menus)}
     </Menu>
-  )
-}
+  );
+};
 
 export default SideMenu;

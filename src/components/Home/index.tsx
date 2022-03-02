@@ -8,7 +8,7 @@ const Home: FC<IProps> = () => {
     <div>
       home page
     </div>
-  )
-}
+  );
+};
 
 export default Home;
