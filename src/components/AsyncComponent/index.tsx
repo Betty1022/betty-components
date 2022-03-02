@@ -33,7 +33,7 @@ export default function asyncComponent(importComponent: any): React.ReactNode {
 
       return C ? <C {...this.props} /> : <div>null</div>;
     }
- 
+
     componentWillUnmount(): void {
       this.isUnMounted = true;
     }

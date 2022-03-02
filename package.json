@@ -39,6 +39,7 @@
     "jest-watch-typeahead": "^1.0.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -78,15 +79,36 @@
       "react-app/jest"
     ],
     "rules": {
-      "quotes": [1, "single"],
-      "semi": [2, "always"],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "semi": [
+        2,
+        "always"
+      ],
       "no-const-assign": 2,
       "no-empty": 2,
       "no-multi-spaces": 2,
-      "linebreak-style": [0, "windows"],
-      "indent": [2, 2],
-      "semi-spacing": [2, {"before": false, "after": false}],
-      "max-params": [0, 3],
+      "linebreak-style": [
+        0,
+        "windows"
+      ],
+      "indent": [
+        2,
+        2
+      ],
+      "semi-spacing": [
+        2,
+        {
+          "before": false,
+          "after": false
+        }
+      ],
+      "max-params": [
+        0,
+        3
+      ],
       "no-trailing-spaces": 2
     }
   },
@@ -159,6 +181,7 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.178",
     "@types/react-router-dom": "^5.3.3",
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.3.0",

@@ -1,6 +1,6 @@
 import {Input, Button} from 'antd';
 import {useState, forwardRef, useEffect, ForwardRefRenderFunction} from 'react';
-import {LeftOutlined, RightOutlined} from '@ant-design/icons';
+import {MinusOutlined, PlusOutlined} from '@ant-design/icons';
 
 import './index.less';
 
@@ -52,7 +52,7 @@ const Stepper: ForwardRefRenderFunction<HTMLDivElement, IProps> = ({min = 5, max
           setCount(count - 1);
         }}
         disabled={count <= min}
-        icon={<LeftOutlined />}
+        icon={<MinusOutlined />}
       />
       <Input className='stepper-input' value={count} onChange={handleChange} onBlur={blurChange} type='number' onKeyPress={keyPress} />
       <Button
@@ -61,7 +61,7 @@ const Stepper: ForwardRefRenderFunction<HTMLDivElement, IProps> = ({min = 5, max
           setCount(parseInt(count) + 1);
         }}
         disabled={count >= max}
-        icon={<RightOutlined />}
+        icon={<PlusOutlined />}
       />
     </div>
   );

@@ -5,11 +5,16 @@ export default [
   {
     path: '/expand',
     exact: true,
-    component: AsyncComponent(() => import(/* webpackChunkName: "Home" */ './DescriptionPage'))
+    component: AsyncComponent(() => import(/* webpackChunkName: "DescriptionPage" */ './DescriptionPage'))
   },
   {
     path: '/stepper',
     exact: true,
-    component: AsyncComponent(() => import(/* webpackChunkName: "Menu2" */ './StepperPage'))
+    component: AsyncComponent(() => import(/* webpackChunkName: "StepperPage" */ './StepperPage'))
+  },
+  {
+    path: '/expandBtnGroup',
+    exact: true,
+    component: AsyncComponent(() => import(/* webpackChunkName: "ExpandBtnGroupPage" */ './ExpandBtnGroupPage'))
   }
 ];

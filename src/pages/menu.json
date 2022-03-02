@@ -10,5 +10,11 @@
     "title": "步进器",
     "icon": "DesktopOutlined",
     "path": "/stepper"
+  },
+  {
+    "key": "expandBtnGroup",
+    "title": "行业超长优化",
+    "icon": "DesktopOutlined",
+    "path": "expandBtnGroup"
   }
 ]
