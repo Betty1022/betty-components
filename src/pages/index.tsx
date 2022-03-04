@@ -17,7 +17,7 @@ const Pages: FC<IProps> = () => {
   };
 
   return (
-    <Layout style={{minHeight: '100vh'}}>
+    <Layout className='betty-layout' style={{minHeight: '100vh'}}>
       <Sider>
         <div className='logo' />
         <SideMenu menus={menus} />

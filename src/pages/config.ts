@@ -16,5 +16,10 @@ export default [
     path: '/expandBtnGroup',
     exact: true,
     component: AsyncComponent(() => import(/* webpackChunkName: "ExpandBtnGroupPage" */ './ExpandBtnGroupPage'))
+  },
+  {
+    path: '/table',
+    exact: true,
+    component: AsyncComponent(() => import(/* webpackChunkName: "TablePage" */ './TablePage'))
   }
 ];

@@ -16,5 +16,11 @@
     "title": "行业超长优化",
     "icon": "DesktopOutlined",
     "path": "expandBtnGroup"
+  },
+  {
+    "key": "table",
+    "title": "表格",
+    "icon": "DesktopOutlined",
+    "path": "table"
   }
 ]

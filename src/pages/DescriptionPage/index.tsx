@@ -1,6 +1,6 @@
 import React, {FC} from 'react';
 import {Alert} from 'antd';
-import PortalDescription from '../../components/PortalDescription';
+import PortalDescription from '~/components/PortalDescription';
 
 type IProps = {}
 

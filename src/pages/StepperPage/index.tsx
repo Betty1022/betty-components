@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import Stepper from '../../components/Stepper';
+import Stepper from '~/components/Stepper';
 import {Alert} from 'antd';
 
 type IProps = {}

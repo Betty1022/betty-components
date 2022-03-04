@@ -1,6 +1,6 @@
 import React, {FC, useState} from 'react';
 import {Alert, InputNumber} from 'antd';
-import ExpandBtnGroup from '../../components/ExpandBtnGroup';
+import ExpandBtnGroup from '~/components/ExpandBtnGroup';
 import dataSource from './dataSource.json';
 
 import './index.less';

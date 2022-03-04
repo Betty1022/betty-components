@@ -1,5 +1,5 @@
 import React, {FC, useState, useLayoutEffect} from 'react';
-import {ALL_TEXT} from '../../common/js/constants';
+import {ALL_TEXT} from '~/common/js/constants';
 import _ from 'lodash';
 import {LeftOutlined, RightOutlined} from '@ant-design/icons';
 import './index.less';
