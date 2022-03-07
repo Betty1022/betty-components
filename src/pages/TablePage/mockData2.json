@@ -1,0 +1,203 @@
+
+  {
+    "type": "array",
+    "id": "tableID",
+    "title": "table",
+    "renderType": "Table",
+    "value": [
+      {
+      "id": "destructionFactor4PlantsUsingNSCR",
+      "ExhaustGas": "非选择性催化还原NSCR",
+      "ExhaustGas2": null,
+      "removalEfficiency": 12,
+      "usageRate": 13,
+      "data1": 34,
+      "select1": "t",
+      "data2": 90,
+      "select2": "kt",
+      "select": "kg"
+      },
+      {
+      "id": "prolongAbsorption",
+      "ExhaustGas": "延长吸收",
+      "ExhaustGas2": "testxw",
+      "removalEfficiency": 77,
+      "usageRate": 99,
+      "data1": 341,
+      "select1": "kt",
+      "data2": 900,
+      "select2": "kt",
+      "select": "kg"
+      },
+      {
+      "id": "prolongAbsorption3",
+      "ExhaustGas": "延长吸收",
+      "ExhaustGas2": "testxw",
+      "removalEfficiency": 77,
+      "usageRate": 99,
+      "data1": 341,
+      "select1": "kt",
+      "data2": 900,
+      "select2": "kt",
+      "select": "kg"
+      },
+      {
+      "id": "prolongAbsorption4",
+      "ExhaustGas": "延长吸收",
+      "ExhaustGas2": "testxw",
+      "removalEfficiency": 77,
+      "usageRate": 99,
+      "data1": 341,
+      "select1": "kt",
+      "data2": 900,
+      "select2": "kt",
+      "select": "kg"
+      },
+      {
+      "id": "prolongAbsorption5",
+      "ExhaustGas": "延长吸收",
+      "ExhaustGas2": "testxw",
+      "removalEfficiency": "两行合并测试",
+      "usageRate": 99,
+      "data1": 341,
+      "select1": "kt",
+      "data2": 900,
+      "select2": "kt",
+      "select": "kg"
+      },
+      {
+      "id": "prolongAbsorption6",
+      "ExhaustGas": "延长吸收",
+      "ExhaustGas2": "testxw",
+      "removalEfficiency": "两行合并测试",
+      "usageRate": 99,
+      "data1": 341,
+      "select1": "kt",
+      "data2": 900,
+      "select2": "kt",
+      "select": "kg"
+      }
+    ],
+    "props": {
+      "items": [
+        {
+          "id": "ExhaustGas",
+          "type": "string",
+          "title": "尾气处理工艺",
+          "renderType": "Text",
+          "colSpan": 2,
+          "cellSpans": [
+            {
+              "index": 0,
+              "colSpan": 2
+            },
+            {
+              "index": 1,
+              "rowSpan": 2
+            },
+            {
+              "index": 2,
+              "rowSpan": 0
+            }
+          ]
+        },
+        {
+          "id": "ExhaustGas2",
+          "type": "string",
+          "title": "尾气处理工艺2",
+          "renderType": "Text",
+          "colSpan": 0,
+          "cellSpans": [
+            {
+              "index": 0,
+              "colSpan": 0
+            }
+          ]
+        },
+        {
+          "id": "removalEfficiency",
+          "type": "number",
+          "title": "去除效率",
+          "renderType": "Text",
+          "required": true,
+          "props": {
+            "unit": "%",
+            "description": ""
+          },
+          "significantDigits": 4,
+          "min": 0,
+          "max": 100,
+          "cellSpans": [
+            {
+              "index": 4,
+              "colSpan": 2
+            },
+            {
+              "index": 5,
+              "colSpan": 2
+            }
+          ]
+        },
+        {
+          "id": "usageRate",
+          "type": "number",
+          "title": "使用率",
+          "renderType": "Text",
+          "required": true,
+          "props": {
+            "unit": "%"
+          },
+          "significantDigits": 4,
+          "min": 0,
+          "max": 100,
+          "cellSpans": [
+            {
+              "index": 4,
+              "colSpan": 0
+            },
+            {
+              "index": 5,
+              "colSpan": 0
+            }
+          ]
+        },
+        {
+          "type": "string",
+          "title": "收资",
+          "children": [
+            {
+              "id": "data1",
+              "type": "string",
+              "title": "数据",
+              "renderType": "Text",
+              "required": true
+            },
+            {
+              "id": "select1",
+              "type": "string",
+              "title": "单位",
+              "renderType": "Text"
+            }
+          ]
+        },
+        {
+          "type": "string",
+          "title": "采集",
+          "children": [
+            {
+              "id": "data2",
+              "type": "string",
+              "title": "数据",
+              "renderType": "Text"
+            },
+            {
+              "id": "select2",
+              "type": "string",
+              "title": "单位",
+              "renderType": "Text"
+            }
+          ]
+        }
+      ]
+    }
+  }
